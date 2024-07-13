@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: orangered;
+    padding: 10px;
+    margin: 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.item{
+    background-color: purple;
+    color: black;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+}
+.items-10 {
+    flex: 1;
+}
